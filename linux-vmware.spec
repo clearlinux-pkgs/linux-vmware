@@ -5,13 +5,13 @@
 #
 
 Name:           linux-vmware
-Version:        4.2.5
+Version:        4.3.0
 Release:        1
 License:        GPL-2.0
 Summary:        The Linux kernel optimized for running inside VMWare
 Url:            http://www.kernel.org/
 Group:          kernel
-Source0:        https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.2.5.tar.xz
+Source0:        https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.3.tar.xz
 Source1:        config
 Source2:        cmdline
 
@@ -25,7 +25,7 @@ BuildRequires:  elfutils
 BuildRequires:  elfutils-dev
 BuildRequires:  kmod
 BuildRequires:  make >= 3.78
-BuildRequires:  openssl
+BuildRequires:  openssl-dev
 BuildRequires:  flex
 BuildRequires:  bison
 
@@ -60,7 +60,7 @@ Group:          kernel
 Linux kernel extra files
 
 %prep
-%setup -q -n linux-4.2.5
+%setup -q -n linux-4.3
 
 %patch1 -p1
 %patch2 -p1

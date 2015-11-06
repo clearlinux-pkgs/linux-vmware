@@ -1,4 +1,4 @@
-From 56da29202ca29e398fcab5fe96bec33c1a57c3a4 Mon Sep 17 00:00:00 2001
+From aaf3d4c316d347cba1f8f5c5a6eddc17cf23866b Mon Sep 17 00:00:00 2001
 From: Arjan van de Ven <arjan@linux.intel.com>
 Date: Mon, 13 Apr 2015 10:59:58 -0500
 Subject: [PATCH 1/9] Don't wait for PS/2 at boot
@@ -15,7 +15,7 @@ Signed-off-by: Miguel Bernal Marin <miguel.bernal.marin@linux.intel.com>
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/init/do_mounts.c b/init/do_mounts.c
-index a95bbdb..964367b 100644
+index dea5de9..da84094 100644
 --- a/init/do_mounts.c
 +++ b/init/do_mounts.c
 @@ -28,6 +28,7 @@
@@ -26,7 +26,7 @@ index a95bbdb..964367b 100644
  
  #include <linux/nfs_fs.h>
  #include <linux/nfs_fs_sb.h>
-@@ -558,7 +559,8 @@ void __init prepare_namespace(void)
+@@ -563,7 +564,8 @@ void __init prepare_namespace(void)
  	 * For example, it is not atypical to wait 5 seconds here
  	 * for the touchpad of a laptop to initialize.
  	 */
@@ -37,5 +37,5 @@ index a95bbdb..964367b 100644
  	md_run_setup();
  
 -- 
-2.5.0
+2.4.3
 

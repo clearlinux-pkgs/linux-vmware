@@ -1,4 +1,4 @@
-From a4b2ff0db85b2f5d9baddd8d67c53585bf515288 Mon Sep 17 00:00:00 2001
+From 463e270b8a647e6892734319664ea6e48729ca4f Mon Sep 17 00:00:00 2001
 From: Arjan van de Ven <arjan@linux.intel.com>
 Date: Tue, 28 Apr 2015 09:54:15 -0500
 Subject: [PATCH 4/9] intel idle
@@ -9,7 +9,7 @@ Subject: [PATCH 4/9] intel idle
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/drivers/idle/intel_idle.c b/drivers/idle/intel_idle.c
-index 2a36a95..b39cc33 100644
+index cd4510a..98a0552 100644
 --- a/drivers/idle/intel_idle.c
 +++ b/drivers/idle/intel_idle.c
 @@ -484,7 +484,7 @@ static struct cpuidle_state hsw_cstates[] = {
@@ -58,5 +58,5 @@ index 2a36a95..b39cc33 100644
  		.enter_freeze = intel_idle_freeze, },
  	{
 -- 
-2.5.0
+2.4.3
 
