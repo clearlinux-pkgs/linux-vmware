@@ -43,7 +43,9 @@ Patch6:  0006-Tweak-Intel-idle.patch
 Patch7:  0007-raid6-boottime.patch
 Patch8:  0008-reduce-the-damage-from-intel_pt-by-bailing-out-on-cp.patch
 Patch9:  0009-reduce-minimal-ack-time-down-from-40-msec.patch
-
+Patch10: 0010-cpuidle-x86-increase-forced-cut-off-for-polling-to-2.patch
+Patch11: 0011-cpuidle-menu-use-interactivity_req-to-disable-pollin.patch
+Patch12: 0012-cpuidle-menu-smooth-out-measured_us-calculation.patch
 
 # kdbus
 Patch701: 701-kdbus.patch
@@ -71,6 +73,9 @@ Linux kernel extra files
 %patch7 -p1
 %patch8 -p1
 %patch9 -p1
+%patch10 -p1
+%patch11 -p1
+%patch12 -p1
 
 
 # kdbus
