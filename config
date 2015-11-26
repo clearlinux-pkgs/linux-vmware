@@ -1060,6 +1060,7 @@ CONFIG_DNS_RESOLVER=m
 # CONFIG_BATMAN_ADV is not set
 # CONFIG_OPENVSWITCH is not set
 CONFIG_VSOCKETS=y
+CONFIG_VMWARE_VMCI_VSOCKETS=m
 # CONFIG_NETLINK_MMAP is not set
 # CONFIG_NETLINK_DIAG is not set
 # CONFIG_MPLS is not set
@@ -1183,7 +1184,7 @@ CONFIG_VIRTIO_BLK=y
 # CONFIG_SENSORS_APDS990X is not set
 # CONFIG_HMC6352 is not set
 # CONFIG_DS1682 is not set
-# CONFIG_VMWARE_BALLOON is not set
+CONFIG_VMWARE_BALLOON=m
 # CONFIG_BMP085_I2C is not set
 # CONFIG_USB_SWITCH_FSA9480 is not set
 # CONFIG_SRAM is not set
@@ -1207,7 +1208,7 @@ CONFIG_VIRTIO_BLK=y
 # Altera FPGA firmware download module
 #
 # CONFIG_ALTERA_STAPL is not set
-# CONFIG_VMWARE_VMCI is not set
+CONFIG_VMWARE_VMCI=m
 
 #
 # Intel MIC Bus Driver
@@ -1518,7 +1519,7 @@ CONFIG_MDIO_BCM_UNIMAC=m
 # Enable WiMAX (Networking options) to see the WiMAX drivers
 #
 # CONFIG_WAN is not set
-# CONFIG_VMXNET3 is not set
+CONFIG_VMXNET3=m
 # CONFIG_FUJITSU_ES is not set
 # CONFIG_ISDN is not set
 
