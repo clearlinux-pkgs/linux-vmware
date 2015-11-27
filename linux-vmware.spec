@@ -46,6 +46,7 @@ Patch9:  0009-reduce-minimal-ack-time-down-from-40-msec.patch
 Patch10: 0010-cpuidle-x86-increase-forced-cut-off-for-polling-to-2.patch
 Patch11: 0011-cpuidle-menu-use-interactivity_req-to-disable-pollin.patch
 Patch12: 0012-cpuidle-menu-smooth-out-measured_us-calculation.patch
+Patch13: 0013-pci-probe-vmware.patch
 
 # kdbus
 Patch701: 701-kdbus.patch
@@ -76,6 +77,7 @@ Linux kernel extra files
 %patch10 -p1
 %patch11 -p1
 %patch12 -p1
+%patch13 -p1
 
 
 # kdbus
