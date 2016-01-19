@@ -51,6 +51,9 @@ Patch13: 0013-pci-probe-vmware.patch
 # kdbus
 Patch701: 701-kdbus.patch
 
+# Security
+Patch9001: cve-2016-0728.patch
+
 %description
 The Linux kernel.
 
@@ -83,6 +86,8 @@ Linux kernel extra files
 # kdbus
 %patch701 -p1
 
+# Security
+%patch9001 -p1
 
 cp %{SOURCE1} .
 
